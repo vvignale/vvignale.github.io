@@ -2,6 +2,12 @@
 layout: default
 ---
 <div class="posts">
-      {% for post in site.pages %}{% if post.hidden != true %}<a href={{ site.baseurl }}{{ post.url }} class="post-link">{{ post.title }}</a>
-      {% endif %}{% endfor %}
+      {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          <a class="post-link{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 </div>
