@@ -1,4 +1,4 @@
-pygments: true
+rouge: true
 permalink: /:year/:month/:day/:title
 markdown: rdiscount
 exclude: ['.git']
