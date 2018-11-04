@@ -1,6 +1,7 @@
 rouge: true
 permalink: /:year/:month/:day/:title
 exclude: ['.git']
+markdown: kramdown
 name: "Veena Vignale"
 description: "Website yay"
 url: https://veenavignale.com/
