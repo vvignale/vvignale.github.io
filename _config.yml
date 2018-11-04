@@ -1,5 +1,4 @@
 rouge: true
-permalink: pretty
 permaline: /:title/
 exclude: ['.git']
 markdown: kramdown
