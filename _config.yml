@@ -1,0 +1,8 @@
+rouge: true
+permalink: /:title/
+exclude: ['.git']
+markdown: kramdown
+name: "Veena Vignale"
+description: "Website yay"
+url: http://vvignale.github.io
+baseurl: http://veenavignale.com
