@@ -1,5 +1,5 @@
 rouge: true
-permaline: /:title:output_ext
+permalink: /:title/
 exclude: ['.git']
 markdown: kramdown
 name: "Veena Vignale"
