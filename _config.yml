@@ -1,6 +1,5 @@
 rouge: true
 permalink: /:year/:month/:day/:title
-markdown: rdiscount
 exclude: ['.git']
 name: "Veena Vignale"
 description: "Website yay"
