@@ -4,4 +4,5 @@ exclude: ['.git']
 markdown: kramdown
 name: "Veena Vignale"
 description: "Website yay"
-url: https://veenavignale.com/
+url: http://vvignale.github.io
+baseurl: http://veenavignale.com
