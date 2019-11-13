@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Game
+title: Games
 ---
 
 Spline is an experimental 2D physics game written on top of a custom game engine all from scratch in Java.   
