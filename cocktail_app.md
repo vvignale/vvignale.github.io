@@ -1,4 +1,4 @@
 ---
 layout: page
-title: Cocktails
+title: Cocktails_App
 ---
